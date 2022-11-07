@@ -28,3 +28,15 @@ And they get stored in different parts of local storage.
 ![image](https://user-images.githubusercontent.com/116850173/200346167-8e4a7778-fe8a-4f4f-8faf-48ded46fb6f0.png)
 By clicking the X button you simply dispatch a deletePost() reducer and use the filter method on our state with the condition of post.id != action.payload
 <br> This makes it so that whenever you click a delete button it sends the id of that post to the reducer function and returns the state without the post of that id
+
+### Bookmarking
+#### Bookmark Button
+![image](https://user-images.githubusercontent.com/116850173/200347781-cf781234-c20e-44f8-a1d5-70c4c37d8d84.png)
+#### Bookmark Page
+![image](https://user-images.githubusercontent.com/116850173/200347213-2d491acb-56b2-466a-b2c8-c3ed0eb3f9c5.png)
+You can bookmark tweets by clicking the pin button next to them. All the bookmarked tweets will be stored in localstorage and will be displayed in the bookmark page.
+You can delete bookmarks by clicking the x button next to them.
+### Profile Page
+![image](https://user-images.githubusercontent.com/116850173/200348180-346b7ae5-ada7-4528-bc03-96033fde12dd.png)
+You can change your username,handle and profile picture in this section.
+<br> All of them will be stored in local storage aswell.
